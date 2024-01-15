@@ -40,7 +40,7 @@ namespace odatawebapi
                            .UseLoggerFactory(loggerFactory)); */
             services.AddDbContext<PersonasDbContext>(options =>
                 options.UseSqlite(
-                    Configuration.GetConnectionString("DefaultConnection")));
+                    Configuration.GetConnectionString("DefaultConnection")).UseLoggerFactory(loggerFactory));
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<PersonasDbContext>();
             services.AddRazorPages();
