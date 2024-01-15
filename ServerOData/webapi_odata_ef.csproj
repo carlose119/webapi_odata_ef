@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <PackageProjectUrl>https://github.com/programando-ideas/webapi_odata_ef</PackageProjectUrl>
-    <Copyright>Programando Ideas</Copyright>
+    <PackageProjectUrl>https://github.com/carlose119/webapi_odata_ef</PackageProjectUrl>
+    <Copyright>Test</Copyright>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
     <UserSecretsId>d3d546a2-5bfb-4ef8-a2eb-2377901a957c</UserSecretsId>
